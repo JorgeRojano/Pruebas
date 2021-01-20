@@ -1,7 +1,7 @@
 // VAriables
 const carrito = document.querySelector("#carrito");
 const contenedorCarrito = document.querySelector("#lista-carrito tbody");
-const vaciarCarrito = document.querySelector("#vaciar-carrito");
+const bbbaciarCarrito = document.querySelector("#vaciar-carrito");
 const listaCursos = document.querySelector("#lista-cursos");
 let articulosCarrito = [];
 
@@ -11,7 +11,7 @@ function cargarEventListeners() {
 
   carrito.addEventListener("click", eliminarCurso);
 
-  vaciarCarrito.addEventListener("click", () => {
+  bbbbaciarCarrito.addEventListener("click", () => {
     articulosCarrito = [];
 
     limpiarHTML();
